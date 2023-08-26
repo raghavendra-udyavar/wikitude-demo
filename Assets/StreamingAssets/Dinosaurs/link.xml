@@ -1,0 +1,7 @@
+<linker>
+  <!-- Prevent the SkinnedMeshRenderer from being stripped away when building.
+       This is necessary for displaying the dinosaurs on mobile devices. -->
+  <assembly fullname="UnityEngine">
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all"/>
+  </assembly>
+</linker>
